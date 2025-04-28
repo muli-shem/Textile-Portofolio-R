@@ -8,7 +8,6 @@ import TechnicalDrawings from "../components/portfolio/TechnicalDrawings"
 import FabricSwatches from "../components/portfolio/FabricSwatches"
 import GarmentConstruction from "../components/portfolio/GarmentConstruction"
 import FinishedGarments from "../components/portfolio/FinishedGarments"
-import DesignProjects from "../components/portfolio/DesignProjects"
 import DigitalDesignSkills from "../components/portfolio/DigitalDesignSkills"
 import WorkExperience from "../components/portfolio/WorkExperience"
 import PortfolioFilter, { type FilterCategory } from "../components/portfolio/PortfolioFilter"
@@ -65,7 +64,6 @@ const PortfolioPage = () => {
         {visibleSections.fabricSwatches && <FabricSwatches />}
         {visibleSections.garmentConstruction && <GarmentConstruction />}
         {visibleSections.finishedGarments && <FinishedGarments />}
-        {visibleSections.designProjects && <DesignProjects />}
         {visibleSections.digitalDesignSkills && <DigitalDesignSkills />}
         {visibleSections.workExperience && <WorkExperience />}
       </div>

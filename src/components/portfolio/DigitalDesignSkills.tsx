@@ -4,25 +4,25 @@ const DigitalDesignSkills = () => {
       id: 1,
       title: "3D Garment Visualization",
       description: "Digital prototyping using CLO 3D to visualize designs before physical sampling.",
-      imageUrl: "/images/Design8.jpg?height=600&width=800",
+      imageUrl: "/3dgarmet.jpg?height=600&width=800",
     },
     {
       id: 2,
       title: "Digital Illustration",
       description: "Fashion illustrations created in Procreate and Adobe Illustrator.",
-      imageUrl: "/images/Design7.jpg?height=600&width=800",
+      imageUrl: "/digitalillustration.jpg?height=600&width=800",
     },
     {
       id: 3,
       title: "Pattern Digitization",
       description: "Converting hand-drafted patterns to digital formats using specialized software.",
-      imageUrl: "/images/Design2.jpg?height=600&width=800",
+      imageUrl: "/patterndigital.jpg?height=600&width=800",
     },
     {
       id: 4,
       title: "Textile Design",
       description: "Custom print and pattern development using Adobe Photoshop and Illustrator.",
-      imageUrl: "/images/Design6.jpg?height=600&width=800",
+      imageUrl: "/textiledesign.jpg?height=600&width=800",
     },
   ]
 

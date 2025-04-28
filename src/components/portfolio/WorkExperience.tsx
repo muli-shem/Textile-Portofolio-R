@@ -2,30 +2,41 @@ const WorkExperience = () => {
   const experiences = [
     {
       id: 1,
-      position: "Design Intern",
-      company: "Fashion Studio NYC",
-      period: "Summer 2022",
+      position: "Fashion Intern (Attachée) ",
+      company: "Mureithi Fashions, Nairobi",
+      period: "2024 May - 2024 August",
       description:
-        "Assisted the design team with collection development, created technical flats, and participated in fittings and production meetings.",
-      imageUrl: "/placeholder.svg?height=400&width=600",
+ `Assisted in garment cutting, sewing, and finishing under close supervision, ensuring high standards of workmanship.
+
+Supported the design team by preparing mood boards, sketches, and basic pattern drafting.
+
+Learned fabric handling techniques and participated in daily production activities.
+
+Observed client consultations and fittings to understand the customization process.
+
+Gained hands-on experience with industrial sewing machines and garment assembly workflows.
+
+Developed a strong foundation in time management, teamwork, and attention to detail in a busy fashion workshop environment.`,
+      imageUrl: "/images/Rose2.jpg?height=400&width=600",
     },
     {
       id: 2,
-      position: "Pattern Making Assistant",
-      company: "Atelier Paris",
-      period: "Fall 2021",
+      position: "Assistant Designer",
+      company: "Abundance Fashions, Nairobi",
+      period: "2024 – Present",
       description:
-        "Worked directly with the head pattern maker to develop and refine patterns for the couture collection, learning specialized techniques for luxury garment construction.",
-      imageUrl: "/placeholder.svg?height=400&width=600",
-    },
-    {
-      id: 3,
-      position: "Textile Research Collaborator",
-      company: "Sustainable Fabrics Initiative",
-      period: "Spring 2021",
-      description:
-        "Participated in a research project exploring innovative sustainable textiles, contributing to material testing and application in fashion design.",
-      imageUrl: "/placeholder.svg?height=400&width=600",
+        `Assisted in garment cutting, sewing, and finishing under close supervision, ensuring high standards of workmanship.
+
+Supported the design team by preparing mood boards, sketches, and basic pattern drafting.
+
+Learned fabric handling techniques and participated in daily production activities.
+
+Observed client consultations and fittings to understand the customization process.
+
+Gained hands-on experience with industrial sewing machines and garment assembly workflows.
+
+Developed a strong foundation in time management, teamwork, and attention to detail in a busy fashion workshop environment.`,
+      imageUrl: "/images/Rose1.jpg?height=400&width=600",
     },
   ]
 

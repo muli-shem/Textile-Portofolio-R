@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-gray-500 dark:text-gray-400 text-sm">© {currentYear} Your Name. All rights reserved.</p>
+            <p className="text-gray-500 dark:text-gray-400 text-sm">© {currentYear} Rose Kavinya. All rights reserved.</p>
           </div>
           <div className="flex space-x-6">
             <a

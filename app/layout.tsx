@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import React from 'react'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
+  title: 'rosekavinya',
   description: 'Created with v0',
   generator: 'v0.dev',
 }

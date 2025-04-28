@@ -127,7 +127,7 @@ const ContactPage = () => {
                   href="mailto:your.email@example.com"
                   className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white"
                 >
-                  your.email@example.com
+                  rosekavinyamwathi@gmail.com
                 </a>
               </div>
             </div>
@@ -140,7 +140,7 @@ const ContactPage = () => {
                   href="tel:+1234567890"
                   className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white"
                 >
-                  +1 (234) 567-890
+                  +254 111415514
                 </a>
               </div>
             </div>

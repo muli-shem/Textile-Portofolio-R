@@ -6,19 +6,19 @@ const MoodBoards = () => {
       id: 1,
       title: "Urban Minimalism",
       description: "Exploring clean lines and monochromatic palettes inspired by modern city architecture.",
-      imageUrl: "/images/interior2.png?height=600&width=800",
+      imageUrl: "/Urbanmini.jpg?height=600&width=800",
     },
     {
       id: 2,
       title: "Natural Textures",
       description: "A study of organic materials and earthy tones drawn from landscapes and natural elements.",
-      imageUrl: "/images/Palletes2.png?height=600&width=800",
+      imageUrl: "/Naturaltexture.jpg?height=600&width=800",
     },
     {
       id: 3,
       title: "Geometric Patterns",
       description: "Investigating the interplay of shapes and repetition in contemporary design.",
-      imageUrl: "/images/geomet1.png?height=600&width=800",
+      imageUrl: "/geopattern.jpg?height=600&width=800",
     },
   ]
 

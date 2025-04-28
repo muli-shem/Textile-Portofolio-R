@@ -6,7 +6,7 @@ const FabricSwatches = () => {
       description:
         "Durable and sustainable fabric with a diagonal weave pattern. Used for structured pieces in the collection.",
       properties: "Medium weight, breathable, slight texture",
-      imageUrl: "/images/fabric1.png?height=400&width=400",
+      imageUrl: "/organiccottontwill.jpg?height=400&width=400",
     },
     {
       id: 2,
@@ -14,14 +14,14 @@ const FabricSwatches = () => {
       description:
         "Luxurious fabric with a satin finish on one side and matte finish on the other. Perfect for draping and flowing silhouettes.",
       properties: "Lightweight, lustrous, fluid drape",
-      imageUrl: "/images/fabric2.png?height=400&width=400",
+      imageUrl: "/silkcharmeuse.jpg?height=400&width=400",
     },
     {
       id: 3,
       name: "Merino Wool Blend",
       description: "Fine wool mixed with synthetic fibers for durability and ease of care. Used in outerwear pieces.",
       properties: "Medium weight, warm, slight stretch",
-      imageUrl: "/images/fabric3.png?height=400&width=400",
+      imageUrl: "/merinowool.jpg?height=400&width=400",
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ const FabricSwatches = () => {
       description:
         "Sustainable fabric made from post-consumer plastic bottles. Used for technical and water-resistant pieces.",
       properties: "Lightweight, durable, quick-drying",
-      imageUrl: "/images/fabric4.png?height=400&width=400",
+      imageUrl: "/recycledpolyester.jpg?height=400&width=400",
     },
     {
       id: 5,
@@ -37,14 +37,14 @@ const FabricSwatches = () => {
       description:
         "Natural fiber mixed with cotton for reduced wrinkling while maintaining breathability. Used for summer pieces.",
       properties: "Lightweight, textured, breathable",
-      imageUrl: "/images/fabric5.png?height=400&width=400",
+      imageUrl: "/linenblend.jpg?height=400&width=400",
     },
     {
       id: 6,
       name: "Japanese Denim",
       description: "Premium selvedge denim with a tight weave and distinctive character. Used for statement pieces.",
       properties: "Heavy weight, durable, develops patina over time",
-      imageUrl: "/images/fabric6.png?height=400&width=400",
+      imageUrl: "/japanesedenim.jpg?height=400&width=400",
     },
   ]
 

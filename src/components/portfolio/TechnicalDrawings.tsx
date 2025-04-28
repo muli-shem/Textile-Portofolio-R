@@ -4,25 +4,25 @@ const TechnicalDrawings = () => {
       id: 1,
       title: "Structured Blazer",
       description: "Front and back technical flats with construction details.",
-      imageUrl: "/images/Design5.jpg?height=600&width=800",
+      imageUrl: "/techd4.jpg?height=600&width=800",
     },
     {
       id: 2,
       title: "Pleated Skirt",
       description: "Technical drawing showing pleat placement and waistband construction.",
-      imageUrl: "/images/Design5.jpg?height=600&width=800",
+      imageUrl: "/techd3.jpg?height=600&width=800",
     },
     {
       id: 3,
       title: "Draped Blouse",
       description: "Flat sketch with draping details and sleeve construction.",
-      imageUrl: "/images/Design5.jpg?height=600&width=800",
+      imageUrl: "/techd2.jpg?height=600&width=800",
     },
     {
       id: 4,
       title: "Tailored Trousers",
       description: "Technical drawing with pocket placement and fit details.",
-      imageUrl: "/images/Design5.jpg?height=600&width=800",
+      imageUrl: "/tecddtrouser.jpg?height=600&width=800",
     },
   ]
 

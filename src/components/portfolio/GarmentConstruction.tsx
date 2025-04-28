@@ -4,7 +4,7 @@ const GarmentConstruction = () => {
       id: 1,
       title: "Pattern Development",
       description: "Creating and refining patterns based on design sketches and measurements.",
-      imageUrl: "/images/Pattern1.png?height=600&width=800",
+      imageUrl: "/patterbdevelop.jpg?height=600&width=800",
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ const GarmentConstruction = () => {
       id: 3,
       title: "Initial Assembly",
       description: "Basting and preliminary construction to test fit and structure.",
-      imageUrl: "/images/Pattern3.png?height=600&width=800",
+      imageUrl: "/initialassemb.jpg?height=600&width=800",
     },
     {
       id: 4,
@@ -28,14 +28,9 @@ const GarmentConstruction = () => {
       id: 5,
       title: "Fitting and Adjustments",
       description: "Testing the garment on a model and making necessary modifications.",
-      imageUrl: "/images/Pattern5.png?height=600&width=800",
+      imageUrl: "/fittingandadjust.jpg?height=600&width=800",
     },
-    {
-      id: 6,
-      title: "Final Construction",
-      description: "Completing all seams, finishes, and details to create the finished piece.",
-      imageUrl: "/images/Pattern6.png?height=600&width=800",
-    },
+  
   ]
 
   return (

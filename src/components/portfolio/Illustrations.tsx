@@ -6,25 +6,25 @@ const Illustrations = () => {
       id: 1,
       title: "Evening Gown Concept",
       description: "Initial sketch exploring draping techniques for a formal collection.",
-      imageUrl: "/images/gown2.png?height=800&width=600",
+      imageUrl: "/evengown.jpg?height=800&width=600",
     },
     {
       id: 2,
       title: "Casual Wear Series",
       description: "Exploring silhouettes for everyday comfort with an elevated aesthetic.",
-      imageUrl: "/images/casual1.png?height=800&width=600",
+      imageUrl: "/casualwear.jpg?height=800&width=600",
     },
     {
       id: 3,
       title: "Outerwear Study",
       description: "Conceptual drawings for a winter collection focusing on layering.",
-      imageUrl: "/images/outerwear1.png?height=800&width=600",
+      imageUrl: "/outwear.jpg?height=800&width=600",
     },
     {
       id: 4,
       title: "Accessory Designs",
       description: "Complementary pieces designed to enhance the main collection.",
-      imageUrl: "/images/accessories.png?height=800&width=600",
+      imageUrl: "/Accessoriesss.jpg?height=800&width=600",
     },
   ]
 
