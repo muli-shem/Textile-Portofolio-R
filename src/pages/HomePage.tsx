@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const HomePage = () => {
   return (
@@ -7,37 +7,54 @@ const HomePage = () => {
       <section className="flex-grow flex flex-col md:flex-row justify-between items-center px-4 md:px-12 lg:px-20 py-12 container mx-auto">
         {/* Content - Left Side */}
         <div className="w-full md:w-1/2 lg:w-5/12 text-center md:text-left order-2 md:order-1 md:pr-8">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 dark:text-white">Rose Kavinya</h1>
-          <h2 className="text-xl md:text-2xl font-light mb-6 dark:text-gray-200">Fashion Design Portfolio</h2>
-          
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 dark:text-white">
+            Rose Kavinya
+          </h1>
+          <h2 className="text-xl md:text-2xl font-light mb-6 dark:text-gray-200">
+            Fashion Design Portfolio
+          </h2>
+
           <div className="w-16 h-1 bg-black dark:bg-white mx-auto md:mx-0 mb-6"></div>
-          
-          <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg">Creativity. Passion. Innovation.</p>
+
+          <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg">
+            Creativity. Passion. Innovation.
+          </p>
 
           {/* Extended Intro */}
           <div className="space-y-4 mb-8 text-gray-700 dark:text-gray-300">
             <p className="leading-relaxed">
-              I am a fashion designer with a passion for creating pieces that blend contemporary aesthetics with timeless elegance, inspired by modern minimalism and rich textures.
+              I am a fashion designer with a passion for creating pieces that
+              blend contemporary aesthetics with timeless elegance, inspired by
+              modern minimalism and rich textures.
             </p>
             <p className="leading-relaxed">
-              My designs focus on sustainable practices and innovative pattern cutting, creating distinctive silhouettes that celebrate individuality and self-expression.
+              My designs focus on sustainable practices and innovative pattern
+              cutting, creating distinctive silhouettes that celebrate
+              individuality and self-expression.
             </p>
           </div>
-          
+
           {/* Specialties */}
           <div className="flex flex-wrap gap-2 mb-8 justify-center md:justify-start">
-            <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded text-sm">Sustainable Design</span>
-            <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded text-sm">Pattern Making</span>
-            <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded text-sm">Textile Art</span>
-            <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded text-sm">Contemporary Fashion</span>
+            <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded text-sm">
+              Sustainable Design
+            </span>
+            <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded text-sm">
+              Pattern Making
+            </span>
+            <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded text-sm">
+              Textile Art
+            </span>
+            <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded text-sm">
+              Contemporary Fashion
+            </span>
           </div>
 
           {/* CTA Button */}
-          <Link
-            to="/portfolio"
-            className="px-8 py-3 bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors rounded inline-block"
-          >
-            View My Work
+          <Link href="/portfolio">
+            <div className="px-8 py-3 bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors rounded inline-block">
+              View My Work
+            </div>
           </Link>
         </div>
 
