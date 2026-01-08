@@ -1,18 +1,16 @@
-import Link from "next/link";
+// Updated HomePage.jsx or HomePage.tsx
+import { Link } from "react-router-dom"; // Import Link from react-router-dom, not next/link
 
-const HomePage = () => {
+const HomePage = () => { 
   return (
-    <div className="min-h-[calc(100vh-160px)] flex flex-col">
+    <div className="container mx-auto px-4 py-12">
       {/* Cover Section */}
-      <section className="flex-grow flex flex-col md:flex-row justify-between items-center px-4 md:px-12 lg:px-20 py-12 container mx-auto">
+      <section className="flex flex-col md:flex-row items-center justify-between">
         {/* Content - Left Side */}
-        <div className="w-full md:w-1/2 lg:w-5/12 text-center md:text-left order-2 md:order-1 md:pr-8">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 dark:text-white">
-            Rose Kavinya
+        <div className="w-full md:w-1/2 lg:w-7/12 text-center md:text-left order-2 md:order-1">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+            Rose Kavinya Fashion Design Portfolio
           </h1>
-          <h2 className="text-xl md:text-2xl font-light mb-6 dark:text-gray-200">
-            Fashion Design Portfolio
-          </h2>
 
           <div className="w-16 h-1 bg-black dark:bg-white mx-auto md:mx-0 mb-6"></div>
 
@@ -51,7 +49,7 @@ const HomePage = () => {
           </div>
 
           {/* CTA Button */}
-          <Link href="/portfolio">
+          <Link to="/portfolio" className="inline-block">
             <div className="px-8 py-3 bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors rounded inline-block">
               View My Work
             </div>

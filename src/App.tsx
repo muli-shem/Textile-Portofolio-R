@@ -1,4 +1,4 @@
-"use client"; // 👈 Super important for this file
+"use client"; //  Super important for this file
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
