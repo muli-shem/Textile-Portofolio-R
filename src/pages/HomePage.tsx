@@ -47,14 +47,7 @@ const HomePage = () => {
               Contemporary Fashion
             </span>
           </div>
-
-          {/* CTA Button */}
-          <Link to="/portfolio" className="inline-block">
-            <div className="px-8 py-3 bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors rounded inline-block">
-              View My Work
-            </div>
-          </Link>
-        </div>
+    </div>
 
         {/* User Image - Right Side */}
         <div className="w-full md:w-1/2 lg:w-5/12 flex justify-center order-1 md:order-2 mb-8 md:mb-0">
